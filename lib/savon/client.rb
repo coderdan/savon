@@ -6,6 +6,8 @@ require "savon/soap/xml"
 require "savon/soap/request"
 require "savon/soap/response"
 
+HTTPI.adapter = :em_http
+
 module Savon
 
   # = Savon::Client
